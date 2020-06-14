@@ -1,0 +1,141 @@
+/*Tripoli Reset*/
+* {
+    margin: 0; 
+    padding: 0; 
+    text-decoration: none; 
+    font-size: 1em; 
+    outline: none;
+    }
+    
+    code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext {
+    font: inherit; 
+    font-size: 1em; 
+    white-space: normal;
+    }
+    
+    dfn, i, cite, var, address, em {
+    font-style: normal;
+    }
+    
+    th, b, strong, h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    }
+    
+    a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table {
+    border: none;
+    }
+    
+    table {
+    border-collapse: collapse; 
+    border-spacing: 0;
+    }
+    
+    caption, th, td, center {
+    text-align: left; 
+    vertical-align: top;
+    }
+    
+    body {
+    line-height: 1; 
+    background: white; 
+    color: black;
+    }
+    
+    q {
+    quotes: "" "";
+    }
+    
+    ul, ol, dir, menu {
+    list-style: none;
+    }
+    
+    sub, sup {
+    vertical-align: baseline;
+    }
+    
+    a {
+    color: inherit;
+    }
+    
+    hr {
+    display: none;
+    } /* we don't need a visual hr in layout */
+    
+    font {
+    color: inherit !important; 
+    font: inherit !important; 
+    color: inherit !important;
+    } /* disables some nasty font attributes in standard browsers */
+    
+    marquee {
+    overflow: inherit !important; 
+    -moz-binding: none;
+    }
+    
+    blink {
+    text-decoration: none;
+    }
+    
+    nobr {
+    white-space: normal;
+    }
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+/*Standard*/
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+/*Navigation Bar*/
+.navcontainer {
+    padding: 3%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+    background-color:rgba(255, 211, 89, 1);
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Knewave', cursive;
+    font-weight: bold;
+}
+#nav-link {
+    display: inline;
+    padding: 0px 5px 0px 5px;
+}
+/*Welcome Section*/
+.welcontainer {
+    padding: 20%;
+    text-align: center;
+    background-color: rgba(5, 164, 185, 1);
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Knewave', cursive;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1vw;
+    
+}
+/*Project Section*/
+.projcontainer {
+    padding: 10%;
+    text-align: center;
+    background-color: #ebaac7;
+    font-family: arial;
+}
+.header-style {
+    font-size: 20px;
+    padding: 5%;
+}
+#ph {
+    font-size: 35px;
+    font-family: arial;
+    font-weight: bold;
+    border: solid; 
+
+}
+.project-tile {
+    c4c2c1
+}
+
