@@ -99,6 +99,9 @@ html {
     font-size: 30px;
     font-family: 'Knewave', cursive;
     font-weight: bold;
+    width: 100%;
+    position: fixed;
+    
 }
 #nav-link {
     display: inline;
@@ -127,12 +130,23 @@ html {
 .header-style {
     font-size: 20px;
     padding: 5%;
+    margin-bottom: 10px;
+    font-family: arial;
 }
 #ph {
     font-size: 35px;
     font-family: arial;
     font-weight: bold;
     border: solid; 
+
+}
+#projectul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320, 1 fr));
+}
+.project-img {
+    width: 100%;
+    max-width: 500px;
 
 }
 .project-tile {
