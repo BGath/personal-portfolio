@@ -1,54 +1,59 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" type="icon">
-        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Monofett&display=swap" rel="stylesheet">
+
         <title>Personal Portfolio</title>
     </head>
     <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <!-- Navigation Section -->
-    <div id="nav-sec" class="navcontainer">
-        <nav id="navbar">
-
+        <nav id="navbar"class="navcontainer">
             <ul>
                 <li id="nav-link"><a href="#">About</a></li>
                 <li id="nav-link"><a href="#">Projects</a></li>
                 <li id="nav-link"><a href="#">Contact</a></li>
             </ul>
         </nav>
-    </div>
     <!-- Welcome Section -->
-    <div id="welcome" class="welcontainer">
-        <section id="welcome-section">
-            <header>Welcome to Brie's Personal Portfolio!</header>
-            <h1 class="header-style">This page shows my work as an aspiring Web Developer!</h1>
+        <section id="welcome-section" style="height: 100vh;" class="welcontainer">
+            <div id="header-container">
+                <header class="wh-style">Welcome to Brie's Personal Portfolio!</header>
+                <h1 class="header-style" style="font-size: 30px;">This page showcases my work as an aspiring Developer!</h1>
+            </div>
         </section>
-    </div>
     <!-- Projects Section-->
     <div id="projects-section" class="projcontainer">
         <section id="projects">
-           <h1 id="ph" class="header-style">All of my projects can be found on CodePen</h1> 
-                <ul id="projectul">
-                    <li class="project-tile"><a href="https://codepen.io/bgath/full/KKVwEoV" target="_blank"><img src="https://raw.githubusercontent.com/BGath/technical-documentation-page/assets/techdoc.png" alt="Screenshot" class="project-img"/>Technical Documentation Page</a></li>
-                    <li class="project-tile"><a href="https://codepen.io/bgath/full/MWaPOqQ" target="_blank">Product Landing Page</a></li>
-                    <li class="project-tile"><a href="#"></a></li>
-                    <li class="project-tile"><a href="#"></a></li>
-                </ul>
+                <h1 id="ph" class="header-style">All of my projects can be found on CodePen</h1>
+                <div id="project-grid"> 
+                    <ul id="projectul" class="project-grid">
+                        <li class="project-tile"><a href="https://codepen.io/bgath/full/KKVwEoV" target="_blank"><img src="https://raw.githubusercontent.com/BGath/technical-documentation-page/assets/techdoc.png" alt="Screenshot" class="project-img"/><span class="project-title">Technical Documentation Page</span></a></li>
+                        <li class="project-tile" style="margin-bottom: 146px;"><a href="https://codepen.io/bgath/full/MWaPOqQ" target="_blank"><img src="https://raw.githubusercontent.com/BGath/product-landing-page/assets/productland.png" alt="Screenshot" class="project-img"/><span class="project-title">Product Landing Page</span></a></li>
+                        <li class="project-tile"><a href="https://codepen.io/bgath/full/MWKeRjM"><img src="https://raw.githubusercontent.com/BGath/google-homepage/assets/googlehomepage.png" alt="Screenshot" class="project-img"/><span class="project-title">Google Home Page</span></a></li>
+                        <li class="project-tile"><a href="https://codepen.io/bgath/full/jObZzXP"><img src="https://raw.githubusercontent.com/BGath/survey-form/assets/jjbasurvey.png" alt="Screenshot" class="project-img"/><span class="project-title">Survey Form Page</span></a></li>
+                    </ul>
+                </div>
+                    <h1 id="ch" class="header-style">I would love to collaborate and learn with you!</h1>
         </section>
     </div>
-    <div id="contact-section">
-        <section id="contact">
-            <h1 \>I would love to work and learn with you!</h1>
-            <p>My contact is listed below!</p>
-            <div id="contact-links">
-            <a id="profile-link" href="https://www.facebook.com/profile.php?id=100009687724732" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
-            <a id="profile-link" href="https://www.freecodecamp.org/bgath" target="_blank"><i class="fab fa-free-code-camp"></i>freeCodeCamp</a>
-            <a id="profile-link" href="https://github.com/BGath"><i class="fab fa-github"></i>GitHub</a>
-            </div>
-        </section>
-        
+    <div id="gradient">
+        <div id="contact-section" class="movingdiv">
+            <section id="contact">
+                <p>My contact is listed below!</p>
+                <div id="contact-links" class="contact-links">
+                <a id="profile-link" href="https://www.facebook.com/profile.php?id=100009687724732" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+                <a id="profile-link" href="https://www.freecodecamp.org/bgath" target="_blank"><i class="fab fa-free-code-camp"></i>freeCodeCamp</a>
+                <a id="profile-link" href="https://github.com/BGath"><i class="fab fa-github"></i>GitHub</a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="footer-container">
+        <footer id="footer-sec">Created by BDGath</footer>
     </div>
     </body>
 </html>
