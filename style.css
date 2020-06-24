@@ -126,11 +126,19 @@ body {
     position: relative;
     top: 0;
     max-height: 100vh;
+    border: solid #fff 10px;
+    border-top: solid #fff 100px;
 }
 .wh-style {
     margin-top: 20px;
     letter-spacing: 1vw;
     font-size: 60px;
+    position: relative;
+    top: -100px;
+}
+#desc {
+    position: relative;
+    top: -100px;
 }
 /*Project Section*/
 .projcontainer {
@@ -241,11 +249,26 @@ p {
     padding: 10px 0px 10px 0px;
 }
 @media screen and (max-width: 750px) {
+    .navcontainer {
+        position: fixed;
+        top: 0;
+    }
+    .wh-style {
+       font-size: 50px;
+       position: relative;
+       top: -140px;
+   }
+    #desc {
+        position: relative;
+        top: -130px;
+    }
    .welcontainer {
-       padding-top: 150px;
-       padding-bottom: 700px;
-       max-height: 900px;
+       border: solid #fff 10px;
+       border-top: solid #fff 100px;
+   }
+   #welcome-section {
        height: 100%;
+       max-height: 100vh;
    }
     .projcontainer {
         max-height: 1750px;
@@ -268,12 +291,14 @@ p {
         max-width: 700px;
     }
     #gradient {
-        max-height: 400px;
+        max-height: 550px;
         height: 100%;
     }
    .contact-links {
        text-align: center;
        margin: auto;
        margin-top: 50px;
+       margin-bottom: 50px;
+       font-size: 29px;
    }
 }
